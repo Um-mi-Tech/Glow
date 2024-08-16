@@ -1,9 +1,99 @@
-p{
-    font-size: 30px;
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2{
-    font-size: 20px;
-    color: blue;
+.Allure{
+    width: 1500px;
+    min-width: 100%;
+    height: 800px;
+    filter: brightness(70%);
+    background:url(Supreme-Pictures/Supreme_pic1.jpg) no-repeat center center/cover;
 }
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header h1{
+    color: #fff;
+    font-size: 25px;
+    /* padding: 20px; */
+}
+.List-class li{
+    display: flex;
+    gap: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Social-class{
+    display: flex;
+    gap: 25px;
+}
+
+.Social-class i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.Skin{
+    padding: 20px;
+    color: #fff;
+}
+
+.Skin h1{
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.Skin p{
+    font-size: 20px;
+    font-weight: 500;
+    gap: 2px;
+    padding-bottom: 20px;
+}
+
+.Skin button{
+    color: #fff;
+    background-color: gray;
+    width: 100px;
+    height: 35px;
+    border: none;
+}
+
+
+
+/* 
+li ul:hover{
+    color: #f6f6f6;
+  
+  }
+      
+  
+  li ul::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+
+    /* left: 0; 
+    width: 0;
+    height: 3px;
+    outline: none;
+    background-color:white;
+    transition:  0.3s;
+   
+  
+  } 
+  
+  
+   li ul:hover::before{
+    width: 50%;
+    
+  
+   } */
