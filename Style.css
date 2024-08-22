@@ -11,6 +11,9 @@
 
 .Container{
     list-style: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 
 .Allure{
@@ -81,10 +84,10 @@
 }
 
 
-.Bottom-List{
+/* .Bottom-List{
     border: 20px;
     gap: 150px;
-    /* justify-content: space-evenly; */
+    /* justify-content: space-evenly; 
     background-color: #fff;
     padding-left: 20px;
     align-items: center;   
@@ -93,33 +96,50 @@
     display: flex;
     width: 95%;
     height: 50px;
-}
-.Bottom-List ul{
-    /* padding-top: 15px; */
-   list-style: none;
-   gap: 128px;
-   display: flex;
-   font-size: 20px ;
+} */
 
+div.Scroll-menu{
+    display: flex ;
+    background-color: #fff;
+    width: 95%;
+    height: 50px;
+    /* overflow: auto;
+    white-space: nowrap; */
+    margin-top: 450px;
+    gap: 123px;
+    margin-left: 40px;
 }
+
+
+div.Scroll-menu a{
+    display: flex;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: #000; 
+    font-size: 20px;
+}
+
+div.Scroll-menu a:hover {
+    background-color: #777;
+  }
 
 
 .Main{
    width: 100%;
-/* text-align: center; */
+text-align: center;
 
 }
 
 .Main .header{
-  text-align: center;
-  /* align-items: center; */
+  /* text-align: center; */
 }
 
 .Main .header p{
-    /* font-size: 20px; */
     text-transform: uppercase;
     font-weight: 800;
     color: black;
+    justify-self: center;    
     padding-bottom: 20px;
 }
 
@@ -127,7 +147,8 @@
     color: rgba(92, 47, 15, 0.87);
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 500; 
+     text-align: center;
     /* font-style: normal; */
     font-size: 45px;
     line-height: 50px;
@@ -137,12 +158,14 @@
     line-height: 20px;
     padding-top: 30px;
     font-size: 12px;
+    text-align: center;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
 
 }
 
 .Main .header button{
+    text-align: center;
     margin-top: 60px;
     text-transform: uppercase;
     background-color:  #000000a1;
@@ -160,16 +183,43 @@
     margin-top: 50px;
     font-size: 20px;
     font-weight: 300;
+    text-align: center;
     font-family: "Roboto", sans-serif;
 }
 
 .Main .header img{
     margin-top: 40px;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 550px; 
+    text-align: center;
+
 }
 
+.Next{
+    margin-top: 50px;
+}
 
+.Next h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    gap:40px;
+}
+
+table{
+    border: 1px solid greenyellow;
+    justify-self: center;
+}
+
+.Td{
+    text-transform: uppercase;
+}
+
+.Td1{
+    text-transform: uppercase;
+}
 /* 
 li ul:hover{
     color: #f6f6f6;
