@@ -13,7 +13,8 @@
     list-style: none;
     height: 100%;
     width: 100%;
-    justify-content: center;
+    max-width: 100%;
+
 }
 
 .Allure{
@@ -21,10 +22,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1500px;
+    width: 100%;
     min-width: 100%;
-    height: 1000px;
-    /* filter: brightness(70%); */
+    min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("Supreme-Pictures/Supreme_pic1.jpg") ;
 }
 
@@ -84,27 +84,13 @@
 }
 
 
-/* .Bottom-List{
-    border: 20px;
-    gap: 150px;
-    /* justify-content: space-evenly; 
-    background-color: #fff;
-    padding-left: 20px;
-    align-items: center;   
-    margin-top: 450px;
-    margin-left: 40px;
-    display: flex;
-    width: 95%;
-    height: 50px;
-} */
-
 div.Scroll-menu{
     display: flex ;
     background-color: #fff;
     width: 95%;
     height: 50px;
-    /* overflow: auto;
-    white-space: nowrap; */
+    overflow: auto;
+    white-space: nowrap;
     margin-top: 450px;
     gap: 123px;
     margin-left: 40px;
@@ -131,9 +117,9 @@ text-align: center;
 
 }
 
-.Main .header{
-  /* text-align: center; */
-}
+/* .Main .header{
+  /* text-align: center; 
+} */
 
 .Main .header p{
     text-transform: uppercase;
@@ -220,31 +206,45 @@ table{
 .Td1{
     text-transform: uppercase;
 }
-/* 
-li ul:hover{
-    color: #f6f6f6;
-  
-  }
-      
-  
-  li ul::before{
-    content: "";
-    position: absolute;
-    bottom: -10px;
 
-    /* left: 0; 
-    width: 0;
-    height: 3px;
-    outline: none;
-    background-color:white;
-    transition:  0.3s;
-   
-  
-  } 
-  
-  
-   li ul:hover::before{
-    width: 50%;
-    
-  
-   } */
+
+@media screen and (max-width: 800px){
+ .Allure .header{
+    display: flex;
+    padding: 5px;
+
+ }
+
+ .Allure .header h1{
+    color: #fff;
+    font-size: 20px;
+}
+
+.List-class{
+    padding-top: 5px;
+}
+
+.List-class li{
+    gap: 10px;
+    font-size: 10px;
+}
+
+.Social-class{
+    display: flex;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.Social-class i{
+    font-size: 15px;
+}
+
+
+div.Scroll-menu{
+    width: 80%;
+    height: 50px;
+    margin-top: 150px;
+    gap: 100px;
+    margin-left: 30px;
+}
+}
