@@ -13,7 +13,7 @@
     list-style: none;
     height: 100%;
     width: 100%;
-    max-width: 100%;
+    /* min-width: 100%; */
 
 }
 
@@ -38,7 +38,6 @@
 .Allure .header h1{
     color: #fff;
     font-size: 25px;
-    /* padding: 20px; */
 }
 .List-class li{
     display: flex;
@@ -211,7 +210,7 @@ table{
 @media screen and (max-width: 800px){
  .Allure .header{
     display: flex;
-    padding: 5px;
+    /* padding: 5px; */
 
  }
 
@@ -236,9 +235,14 @@ table{
 }
 
 .Social-class i{
-    font-size: 15px;
+    font-size: 10px;
 }
 
+.Skin h1{
+    font-size: 40px;
+    font-weight: 900;
+    /* padding-bottom: 20px; */
+}
 
 div.Scroll-menu{
     width: 80%;
@@ -247,4 +251,10 @@ div.Scroll-menu{
     gap: 100px;
     margin-left: 30px;
 }
+.Main .header img{
+    width: 350px;
+    height: 500px; 
+
+}
+
 }
