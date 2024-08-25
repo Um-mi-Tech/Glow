@@ -112,7 +112,7 @@ div.Scroll-menu a:hover {
 
 .Main{
    width: 100%;
-text-align: center;
+   /* text-align: center; */
 
 }
 
@@ -121,6 +121,7 @@ text-align: center;
 } */
 
 .Main .header p{
+    text-align: center;
     text-transform: uppercase;
     font-weight: 800;
     color: black;
@@ -150,7 +151,7 @@ text-align: center;
 }
 
 .Main .header button{
-    text-align: center;
+    margin-left:870px ;    
     margin-top: 60px;
     text-transform: uppercase;
     background-color:  #000000a1;
@@ -177,11 +178,13 @@ text-align: center;
     width: 400px;
     height: 550px; 
     text-align: center;
+    margin-left: 750px;
 
 }
 
 .Next{
-    margin-top: 50px;
+    margin: 50px;
+    
 }
 
 .Next h1{
@@ -193,18 +196,124 @@ text-align: center;
     gap:40px;
 }
 
-table{
-    border: 1px solid greenyellow;
-    justify-self: center;
+.Paragraphs{
+    border: 2px solid rgba(19, 73, 19, 0.594);
+    height:750px;
+    width: 500px;
+    line-height: 20px;
+    margin-left: 700px;
+}
+  /* LINE 1 */
+.PRG1{
+    line-height: 20px;
 }
 
-.Td{
+.PRG1 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
     text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+
 }
 
-.Td1{
-    text-transform: uppercase;
+.PRG1 p{
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
+
+
+
+.line1 .new1{
+    margin-bottom: 30px;
+}
+
+/* LINE 2 */
+.PRG2{
+    line-height: 20px;
+}
+
+.PRG2 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.PRG2 p{
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+}
+
+
+
+.line2 .new3{
+   
+    margin-bottom: 30px;
+}
+
+.line2 .new4{
+   
+    margin-bottom: 30px;
+}
+
+/* LINE 3 */
+
+.PRG3{
+    line-height: 20px;
+}
+
+.PRG3 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.PRG3 p{
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+}
+
+
+
+.line3 .new6{
+   
+    margin-bottom: 30px;
+}
+
+ /* PRG 4 */
+
+.PRG4{
+    line-height: 20px;
+}
+
+.PRG4 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.PRG4 p{
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+}
+
+
 
 
 @media screen and (max-width: 800px){
@@ -247,14 +356,29 @@ table{
 div.Scroll-menu{
     width: 80%;
     height: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
     gap: 100px;
     margin-left: 30px;
 }
+
+.Main .header button{
+    margin-left:100px ;
+}
 .Main .header img{
     width: 350px;
-    height: 500px; 
+    height: 500px;
+    margin-left: 12px; 
 
 }
+
+.Paragraphs{
+    height:860px;
+    width: 330px;
+    margin-left: 25px;
+}
+
+
+
+ 
 
 }
