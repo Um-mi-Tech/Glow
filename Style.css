@@ -57,7 +57,7 @@
 }
 
 .Skin{
-    margin-top: 50px;
+    margin-top: 160px;
     padding: 20px;
     color: #fff;
 }
@@ -90,7 +90,7 @@ div.Scroll-menu{
     height: 50px;
     overflow: auto;
     white-space: nowrap;
-    margin-top: 450px;
+    margin-top: 300px;
     gap: 123px;
     margin-left: 40px;
 }
