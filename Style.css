@@ -112,6 +112,7 @@ div.Scroll-menu a:hover {
 
 .Main{
    width: 100%;
+   background-color: #f8f7f7;
    /* text-align: center; */
 
 }
@@ -472,6 +473,287 @@ div.Scroll-menu a:hover {
     margin-bottom: 50px;
 
 }
+ /* SALES PRODUCT */
+
+
+ .sales-products{
+     padding-top: 20px; 
+     line-height: 30px;
+    
+
+ }
+ .sales-products h1{
+    font-size: 25px;
+    text-align: center;
+ }
+
+ .Sales-icons{
+    align-content: center;
+ }
+
+ /* SALES PICTURES */
+
+ .sales_pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+
+  /* Sales picture1  */
+
+ .sales-pic1{
+    margin-left: 20px;
+ }
+ .sales-pic1 img{
+    width:400px;
+    height: 550px;
+ }
+
+ .sales-pic1 h2{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+ }
+ .sales-pic1 h3{
+    word-spacing: 20px;
+
+ }
+
+ .sales-pic1 p{
+    display: inline-block;
+ }
+
+ .sales-pic1 i{
+    display: inline-block;
+ }
+ .sales-pic1 span{
+    text-decoration: 2px solid black line-through;
+ }
+
+  /* SALES- PICTURES 2  */
+  
+ .sales-pic2{
+    margin-left: 20px;
+ }
+ .sales-pic2 img{
+    width:400px;
+    height: 550px;
+ }
+
+ .sales-pic2 h2{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+ }
+ .sales-pic2 h3{
+    word-spacing: 20px;
+
+ }
+
+ .sales-pic2 p{
+    display: inline-block;
+ }
+
+ .sales-pic2 i{
+    display: inline-block;
+ }
+ .sales-pic2 span{
+    text-decoration: 2px solid black line-through;
+ }
+
+
+ /* Sales pictures 3  */
+
+ 
+ .sales-pic3{
+    margin-left: 20px;
+ }
+ .sales-pic3 img{
+    width:400px;
+    height: 550px;
+ }
+
+ .sales-pic3 h2{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+ }
+ .sales-pic3 h3{
+    word-spacing: 20px;
+
+ }
+
+ .sales-pic3 p{
+    display: inline-block;
+ }
+
+ .sales-pic3 i{
+    display: inline-block;
+ }
+ .sales-pic3 span{
+    text-decoration: 2px solid black line-through;
+ }
+
+  /* sales pictures 4  */
+   
+
+  .sales-pic4{
+   margin-left: 20px;
+}
+.sales-pic4 img{
+   width:400px;
+   height: 550px;
+}
+
+.sales-pic4 h2{
+   font-size: 20px;
+   font-weight: 300;
+   font-family: "Poppins", sans-serif;
+}
+.sales-pic4 h3{
+   word-spacing: 20px;
+
+}
+
+.sales-pic4 p{
+   display: inline-block;
+}
+
+.sales-pic4 i{
+   display: inline-block;
+}
+.sales-pic4 span{
+   text-decoration: 2px solid black line-through;
+}
+   /* sales pictures 5  */
+
+   .sales-pic5{
+      margin-left: 20px;
+   }
+   .sales-pic5 img{
+      width:400px;
+      height: 550px;
+   }
+  
+   .sales-pic5 h2{
+      font-size: 20px;
+      font-weight: 300;
+      font-family: "Poppins", sans-serif;
+   }
+   .sales-pic5 h3{
+      word-spacing: 20px;
+  
+   }
+  
+   .sales-pic5 p{
+      display: inline-block;
+   }
+  
+   .sales-pic5 i{
+      display: inline-block;
+   }
+   .sales-pic5 span{
+      text-decoration: 2px solid black line-through;
+   }
+
+
+   .Next{
+      margin-top: 60px;
+      margin-bottom: 40px;
+      align-content: center;
+   }
+
+   .Next h1{
+      text-transform: none;      /* text-align: center; */
+      color: black;
+   }
+
+   .Next p{
+      font-size: 15px;
+      line-height: 20px;
+      font-family: "Roboto", sans-serif;
+
+   }
+
+   .Next h2{
+      padding-top: 30px;
+      padding-bottom: 15px;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+   }
+
+   .Nxt-pic1{
+      margin-top: 30px;
+      line-height: 35px;
+
+   }
+
+  
+
+   .Nxt-pic1 img{
+      width: 250px;
+      height: 300px;
+   }
+
+
+   .Nxt-pic2{
+      margin-top: 30px;
+      line-height: 35px;
+   }
+
+   .Nxt-pic2 img{
+      width: 250px;
+      height: 300px;
+   }
+
+   .Nxt-pic3{
+      margin-top: 30px;
+      line-height: 35px;
+
+   }
+
+   .Nxt-pic3 img{
+      width: 250px;
+      height: 300px;
+   }
+
+
+   .Nxt-pic4{
+      margin-top: 30px;
+      line-height: 35px;
+
+   }
+
+   .Nxt-pic4 img{
+      width: 250px;
+      height: 300px;
+   }
+
+
+   .Blog{
+      padding-top: 50px;
+      align-content: center;
+   }
+   .Blog h1{
+      text-align: center;
+      font-size: 30px;
+   }
+
+   .Blog p{
+      padding-top: 80px;
+      text-align: center;
+      font-size: 20px;
+
+   }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -547,14 +829,10 @@ div.Scroll-menu{
     margin-left:150px ;
   }
 
-  /* .prd-img{
-    margin-left: 20px;
- } */
-
  .prd-img img{
     margin-left: 5px;   
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 450px;
  }
 
  .prd-img2 img{
@@ -575,7 +853,27 @@ div.Scroll-menu{
     height: 450px;
  }
 
+.products_sales{
+    margin-top: 40px;
+}
 
+.Product_pics{
+   align-content: center;
+}
 
+.sales_pictures{
+   display: block;
+ 
+}
 
+.sales_pictures img{
+   width:300px;
+   height: 500px;}
+
+.Blog p{
+   padding: 30px;
+   text-align: center;
+ 
+
+}
 }
