@@ -323,10 +323,10 @@ div.Scroll-menu a:hover {
  }
 
  .icons{
-    margin-left:910px ;
+    justify-content: center;    
     padding-top: 20px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
  }
 
  .fa-chevron-left{
@@ -382,7 +382,7 @@ div.Scroll-menu a:hover {
 
  .prd-img2{
     margin-left: 35px;
-    margin-top: 50px;
+    padding-top: 50px;
 
  }
 
@@ -414,7 +414,7 @@ div.Scroll-menu a:hover {
  }
  .prd-img3{
     margin-left: 35px;
-    margin-top: 50px;
+    padding-top: 50px;
 
 }
 
@@ -448,7 +448,7 @@ div.Scroll-menu a:hover {
 
  .prd-img4{
     margin-left: 35px;
-    margin-top: 50px;
+    padding-top: 50px;
 
 }
 
@@ -488,8 +488,7 @@ div.Scroll-menu a:hover {
  }
 
  .Sales-icons{
-    align-content: center;
- }
+justify-content: center; }
 
  /* SALES PICTURES */
 
@@ -947,26 +946,26 @@ div.Scroll-menu{
   }
 
  .prd-img img{
-    margin-left: 5px;   
-    width: 320px;
+    margin-right: 20px;   
+    width: 300px;
     height: 450px;
  }
 
  .prd-img2 img{
-    /* margin-left: 5px;    */
-    width: 320px;
+   margin-right: 20px;   
+    width: 300px;
     height: 450px;
  }
 
  .prd-img3 img{
-    /* margin-left: 5px;    */
-    width: 320px;
+   margin-right: 20px;   
+    width: 300px;
     height: 450px;
  }
 
  .prd-img4 img{
-    /* margin-left: 5px;    */
-    width: 320px;
+   margin-right: 20px;   
+    width: 300px;
     height: 450px;
  }
 
@@ -974,9 +973,7 @@ div.Scroll-menu{
     margin-top: 40px;
 }
 
-.Product_pics{
-   align-content: center;
-}
+
 
 .sales_pictures{
    display: block;
@@ -985,7 +982,8 @@ div.Scroll-menu{
 
 .sales_pictures img{
    width:300px;
-   height: 500px;}
+   height: 500px;
+}
 
 .Blog p{
    padding: 30px;
@@ -997,4 +995,5 @@ div.Scroll-menu{
 .Blog-imgs img{
    display: block;
 }
+
 }
