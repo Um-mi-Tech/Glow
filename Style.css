@@ -25,7 +25,7 @@
     width: 100%;
     min-width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("Supreme-Pictures/Supreme_pic1.jpg") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("Supreme-Pictures/Alley-pic.jpg") ;
 }
 
 /* Header */
@@ -1003,6 +1003,6 @@ div.Scroll-menu{
 }
 
 .Blog-imgs txt{
-   
+
 }
 }
