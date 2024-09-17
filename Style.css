@@ -358,8 +358,8 @@ div.Scroll-menu a:hover {
  }
 
  .prd-img img{
-    width: 400px;
-    height: 500px;
+   width: 300px;
+   height: 350px;
  }
 
  .img-txt1{
@@ -387,8 +387,8 @@ div.Scroll-menu a:hover {
  }
 
  .prd-img2 img{
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
  }
 
  
@@ -419,8 +419,8 @@ div.Scroll-menu a:hover {
 }
 
  .prd-img3 img{
-    width: 400px;
-    height: 400px;
+   width: 300px;
+   height: 350px;
  }
 
  
@@ -453,8 +453,8 @@ div.Scroll-menu a:hover {
 }
 
  .prd-img4 img{
-    width: 400px;
-    height: 400px;
+   width: 300px;
+   height: 350px;
  }
 
  .img-txt4{
@@ -754,7 +754,7 @@ justify-content: center; }
       margin-top: 40px;
       margin-left: 40px;
       display: flex;
-      gap: 80px;
+      justify-content: space-between;
      }
     
     .Blog-img1{
@@ -765,8 +765,8 @@ justify-content: center; }
     
      .Blog-img1 img{
       margin-bottom: 40px;
-      width: 400px;
-      height: 450px;
+      width: 300px;
+      height: 400px;
      }
 
      .Blog-img1 h4{
@@ -790,8 +790,8 @@ justify-content: center; }
     
      .Blog-img2 img{
       margin-bottom: 40px;
-      width: 400px;
-      height: 450px;
+      width: 300px;
+      height: 400px;
      }
 
      .Blog-img2 h4{
@@ -814,8 +814,8 @@ justify-content: center; }
     
      .Blog-img3 img{
       margin-bottom: 40px;
-      width: 400px;
-      height: 450px;
+      width: 300px;
+      height: 400px;
      }
 
      .Blog-img3 h4{
@@ -839,8 +839,8 @@ justify-content: center; }
     
      .Blog-img4 img{
       margin-bottom: 40px;
-        width: 400px;
-        height: 450px;
+      width: 300px;
+      height: 400px;
      }
 
      .Blog-img4 h4{
@@ -994,15 +994,10 @@ div.Scroll-menu{
 
 .Blog-imgs{
    display: block;
- 
-}
+padding-left: 30px;}
 
 .Blog-imgs img{
-   width: 300px;
-   height: 350px;
-}
-
-.Blog-imgs txt{
-
+   width: 250px;
+   height: 300px;
 }
 }
