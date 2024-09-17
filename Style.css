@@ -994,7 +994,8 @@ div.Scroll-menu{
 
 .Blog-imgs{
    display: block;
-padding-left: 30px;}
+   align-items: center;
+}
 
 .Blog-imgs img{
    width: 250px;
