@@ -1,0 +1,1 @@
+let shoppingCart = 0;

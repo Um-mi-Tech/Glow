@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="Stylesheet" href="Style.css">
@@ -33,7 +33,14 @@
               <div class="Social-class">
                 <i class="fa fa-blind"></i>
                 <i class="fa fa-search"></i>
-                <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-shopping-cart" onclick= "
+                  if (shoppingCart <= 10) {
+                   alert(shoppingCart);
+                  } else{
+                    shoppingCart++;
+                  }
+                
+                "></i>
               </div>
 
           </div>
@@ -59,7 +66,7 @@
     </Section>
 
       <!-- Second section -->
-       <section class="Main">
+        <section class="Main">
             <div class="header">
                 <p>About Us</p>
                 <h1>Earth is our<br>true source<br>of beauty</h1>
@@ -73,40 +80,40 @@
             </div>
         
             <div class="Paragraphs">
-              <div class="PRG1">
+              <div class="PRG ">
                 <h2>Skin Health </h2>
                   <p>Our products contain only natural variants that are essential for <br>
                     your skin, oil and additives contained in natural skincare have <br>
                     anti-inflammatory effects</p>
-                    <div class="line1">
-                      <hr class="new1">
-                      <hr class="new2">
+                    <div class="line">
+                      <hr class="new">
+                      <hr class="new">
                     </div>
               </div>
               
-              <div class="PRG2">
+              <div class="PRG ">
                 <h2>NATURAL INGREDIENTS </h2>
                   <p>Our skincare products are handmade in batches. They are made<br> 
                     using only natural oils and they contain no chemicals.</p>
-                    <div class="line2">
-                        <hr class="new3">
-                        <hr class="new4">
-                        <hr class="new5">
+                    <div class="line">
+                        <hr class="new">
+                        <hr class="new">
+                        <hr class="new">
                   </div>
 
               </div>
               
-              <div class="PRG3">
+              <div class="PRG">
                 <h2>ORIGINALITY </h2>
                   <p>Our products are unique, original and made carefully with good <br>
                     attention to details</p>
-                    <div class="line3">
-                        <hr class="new6">
-                        <hr class="new7">
+                    <div class="line">
+                        <hr class="new">
+                        <hr class="new">
                     </div>
               </div>
 
-              <div class="PRG4">
+              <div class="PRG">
                 <h2>GENTLE CARE </h2>
                   <p>
                     The products do not only cleanse the skin, but also protects it<br>
@@ -126,12 +133,12 @@
 
             <div class="Product_pics">
 
-                <div class="product-pic1">
+                <div class="product-pic">
                   <div class="prd-img">
                     <img src="Supreme-Pictures/face-cream (2).jpg">
                   </div>
-                  <div class="img-txt1">
-                        <div class="img1">
+                  <div class="img-txt">
+                        <div class="img">
                           <h4>Alley face cream</h4>
                           <p>Add to cart</p>
                         </div>  
@@ -141,49 +148,49 @@
                   </div>
                 </div>
 
-                <div class="product-pic2">
-                  <div class="prd-img2">
+                <div class="product-pic">
+                  <div class="prd-img">
                     <img src="Supreme-Pictures/Oilsupreme-pic.jpg">
                   </div>
-                  <div class="img-txt2">
+                  <div class="img-txt">
 
-                    <div class="img2">
+                    <div class="img">
                         <h4>Philae Hair serum</h4>
                         <p>Add to cart</p>
                     </div>  
-                      <div class="prd-txt2">
+                      <div class="prd-txt">
                         <h5>$60.00</h5>
                       </div> 
                     </div>
 
                   </div>
-                <div class="product-pic3">
-                  <div class="prd-img3">
+                <div class="product-pic">
+                  <div class="prd-img">
                     <img src="Supreme-Pictures/face-cream.jpg">
                   </div>
-                  <div class="img-txt3">
+                  <div class="img-txt">
 
-                    <div class="img3">
+                    <div class="img">
                         <h4>Alley body wash</h4>
                         <p>Add to cart</p>
                     </div>  
-                      <div class="prd-txt3">
+                      <div class="prd-txt">
                         <h5>$45.00</h5>
                       </div> 
                   </div>
                 </div>
 
-                <div class="product-pic4">
-                  <div class="prd-img4">
+                <div class="product-pic">
+                  <div class="prd-img">
                     <img src="Supreme-Pictures/Cleanser.jpg">
                   </div>
-                  <div class="img-txt4">
+                  <div class="img-txt">
 
-                        <div class="img4">
+                        <div class="img">
                             <h4>Alley 2x cleanser</h4>
                             <p>Add to cart</p>
                         </div>  
-                        <div class="prd-txt4">
+                        <div class="prd-txt">
                           <h5>$60.00</h5>
                         </div> 
                   </div>
@@ -199,40 +206,78 @@
                   <i class="fa fa-chevron-right"></i>
                 </div>
                <!-- SLIDESHOW PICTURES -->
+               <!-- <div class="Container swiper">
+                 <div class="card-wrapper ">     
+                  <ul class="sales_pictures swiper-wrapper">
+                   <li class="sales-item swiper-slide">
+                    <a href="#" class="sales-link">
+                      <img src="Supreme-Pictures/bestskin.jpg"  class="sales-image">
+                      <h2>Tonicc moisturizer</h2>
+                      <h3>$30 <span>$60</span></h3>
+                      <p>Add to cart</p>
+                      <i class="fa fa-long-arrow-right"></i>
+                    <a>
+                   </li> -->
 
-                <div class="sales_pictures">
-                 <div class="sales-pic1">
-                    <img src="Supreme-Pictures/repair.jpg">
-                    <h2>Tonicc moisturizer</h2>
-                    <h3>$30 <span>$60</span></h3>
-                    <p>Add to cart</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                 </div>
+                   
 
-                  <div class="sales-pic2">
-                      <img src="Supreme-Pictures/Oilsupreme-pic.jpg">
-                    <h2>Allure peeling solution</h2>
-                    <h3>$30 <span>$60</span></h3>
-                    <p>Add to cart</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                  </div>
+                   <!-- <li class="sales-item swiper-slide">
+                    <a href="#" class="sales-link">
+                      <img src="Supreme-Pictures/Alley-pic.jpg"  class="sales-image">
+                      <h2>Tonicc moisturizer</h2>
+                      <h3>$30 <span>$60</span></h3>
+                      <p>Add to cart</p>
+                      <i class="fa fa-long-arrow-right"></i>
+                    <a>
+                   </li> -->
 
-                  <div class="sales-pic3">
-                        <img src="Supreme-Pictures/Toxic.jpg">
-                    <h2>Ayla skin repair serum</h2>
-                    <h3>$30 <span>$60</span></h3>
-                    <p>Add to cart</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                  </div>
+                   <!-- <li class="sales-item swiper-slide">
+                    <a href="#" class="sales-link">
+                      <img src="Supreme-Pictures/repair.jpg"  class="sales-image">
+                      <h2>Tonicc moisturizer</h2>
+                      <h3>$30 <span>$60</span></h3>
+                      <p>Add to cart</p>
+                      <i class="fa fa-long-arrow-right"></i>
+                    <a>
+                   </li>
 
-                  <div class="sales-pic4">
-                      <img src="Supreme-Pictures/peeling.jpg">
-                    <h2>Allure peeling solution</h2>
-                    <h3>$30 <span>$60</span></h3>
-                    <p>Add to cart</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                  </div>
+                   <li class="sales-item swiper-slide">
+                    <a href="#" class="sales-link">
+                      <img src="Supreme-Pictures/repair.jpg"  class="sales-image">
+                      <h2>Tonicc moisturizer</h2>
+                      <h3>$30 <span>$60</span></h3>
+                      <p>Add to cart</p>
+                      <i class="fa fa-long-arrow-right"></i>
+                    <a>
+                   </li>
+
+
+                   <li class="sales-item swiper-slide">
+                    <a href="#" class="sales-link">
+                      <img src="Supreme-Pictures/repair.jpg"  class="sales-image">
+                      <h2>Tonicc moisturizer</h2>
+                      <h3>$30 <span>$60</span></h3>
+                      <p>Add to cart</p>
+                      <i class="fa fa-long-arrow-right"></i>
+                    <a>
+                   </li>
+
+                   <li class="sales-item swiper-slide">
+                    <a href="#" class="sales-link">
+                      <img src="Supreme-Pictures/repair.jpg"  class="sales-image">
+                      <h2>Tonicc moisturizer</h2>
+                      <h3>$30 <span>$60</span></h3>
+                      <p>Add to cart</p>
+                      <i class="fa fa-long-arrow-right"></i>
+                    <a>
+                   </li> 
+
+                    
+                  </ul>
                 </div>
+
+               </div>
+
             </div>       
 
             <div class="Nxt">
@@ -289,7 +334,7 @@
                            harum aliquam rerum ipsa atque, asperiores sapiente error .</p> 
                       <div class="Blog-txt1">
                         <h5>Read more</h5>
-                        <!-- <i class="fa fa-long-arrow-right"></i> - -->
+                         <i class="fa fa-long-arrow-right"></i> 
                       </div> 
                 </div>
           
@@ -302,7 +347,7 @@
                          harum aliquam rerum ipsa atque, asperiores sapiente error .</p>
                     <div class="Blog-txt2">
                       <h5>Read more</h5>
-                       <!-- <i class="fa fa-long-arrow-right"></i>  -->
+                       <!-- <i class="fa fa-long-arrow-right"></i>  
                     </div> 
               </div>
               
@@ -315,7 +360,7 @@
                          harum aliquam rerum ipsa atque, asperiores sapiente error .</p>
                     <div class="Blog-txt3">
                       <h5>Read more</h5>
-                      <!-- <i class="fa fa-long-arrow-right"></i>  -->
+                      <!-- <i class="fa fa-long-arrow-right"></i>  
                     </div> 
               </div>
 
@@ -327,11 +372,30 @@
                          harum aliquam rerum ipsa atque, asperiores sapiente error.</p>
                     <div class="Blog-txt4">
                       <h5>Read more</h5>
-                       <!-- <i class="fa fa-long-arrow-right"></i>  -->
+                       <!-- <i class="fa fa-long-arrow-right"></i>  
                     </div> 
               </div>
             </div>  
           
        </section>
+
+
+        Third section 
+
+       <section></section> 
+
+       <div class="swiper-pagination"></div>
+
+       <div class=" swiper-slide-button swiper-button-prev"></div>
+       <div class=" swiper-slide-button swiper-button-next"></div>
+ 
+     </div>
+   </div> -->
+ 
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+ 
+     <script src="index.js"></script>
+
 </body>
 </html>
