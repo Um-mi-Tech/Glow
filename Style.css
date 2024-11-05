@@ -309,7 +309,7 @@ div.Scroll-menu a:hover {
 
  .card-wrapper{
    margin:0 10px 25px;
-   padding: 20px 2px;
+   padding: 20px 10px;
    overflow: hidden;
  }
  
@@ -407,14 +407,13 @@ div.Scroll-menu a:hover {
  }
  .card-wrapper .swiper-slide-button{
    color:#5372f0;
-   /* margin-top:1px; */
  
  }
 
    .Nxt{
-      margin-top: 60px;
-      /* display: ; */
-      justify-self:center;   }
+      margin:0 10px 25px;
+      padding: 30px 20px;      
+      } 
 
    .Nxt h1{
       padding-bottom: 30px;
@@ -428,6 +427,8 @@ div.Scroll-menu a:hover {
    .Nxt p{
       font-size: 15px;
       line-height: 20px;
+      
+      width:fit-content;
       font-family: "Roboto", sans-serif;
 
    }
@@ -436,6 +437,7 @@ div.Scroll-menu a:hover {
       padding-top: 30px;
       padding-bottom: 15px;
       font-size: 20px;
+      width:fit-content;
       font-family: "Roboto", sans-serif;
    }
 
@@ -448,7 +450,7 @@ div.Scroll-menu a:hover {
   
 
    .Nxt-pic img{
-      width: 250px;
+      width: 300px;
       height: 300px;
       }
 
@@ -679,6 +681,15 @@ div.Scroll-menu{
    align-content: center;
   }
 
+  .Nxt{
+   width:fit-content;
+   padding: 20px; 
+   margin: 20px;
+} 
+
+.Nxt h2{
+
+}
  .prd-img img{
     margin-right: 20px;   
     width: 300px;
