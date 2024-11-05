@@ -302,290 +302,127 @@ div.Scroll-menu a:hover {
    margin-right: 40px;
  }
 
+ .sales-products{
+   text-align: center;
+ }
+
+
+ .card-wrapper{
+   margin:0 10px 25px;
+   padding: 20px 2px;
+   overflow: hidden;
+ }
  
-.sales_pictures{
-   display: flex;
-   /* align-items: center;
-   justify-content: center; */
-   min-height:100vh;
-   background: linear-gradient(#ECEFFE, #CED6FB);
-}
-
-
-.sales_pictures .sales-item{
+ 
+ .card-list .card-item{
    list-style: none;
-}
-
-.sales_pictures .sales-item .sales-link{
+ }
+ 
+ .card-list .card-item .card-link{
    user-select: none;
    display: block;
-   background: #fff;
    padding: 18px;
-   border-radius: 12px;
    text-decoration: none;
-   border:2px solid transparent;
-   box-shadow: 0 10px 10px rgba(0,0,0,0.05);
    transition: 0.2s ease;
-}
-
-
-
-.sales-pictures .sales-item .sales-link:active{
+ }
+ 
+ .card-list .card-item .card-link:active{
    cursor: grabbing;
  }
+ 
+ 
+ 
 
-
- .sales-pictures .sales-item .sales-link:active:hover{
-   border-color: #000
- }
-
- .sales-pictures .sales-link .sales-image{
-   width: 400px;
+ 
+ .card-list .card-link .card-image{
+   height: 450px;
+   width: 100%;
+   /* max-width: 300px; */
    aspect-ratio: 16 / 9;
    object-fit: cover;
-   border-radius:10px
+   border-radius:10px;
+   cursor: grabbing;
+ 
+ }
+ 
+ .card-list .card-link .badge{
+    color: #000000a5;
+    margin: 16px 0 18px;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width:fit-content;
+ 
+ 
+ 
  }
 
- .sales-pictures .sales-item h2{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Poppins", sans-serif;
+ .card-list .card-link .card-title{
+ font-size: 1.12rem;
+ color: #000000dd;
+ font-weight: 400;
+ margin: 5px 0 ;
+ padding:  5px;
+ width:fit-content;
+ } 
+
+ .card-list .card-link .card-title span{
+   text-decoration:2px line-through;
+ }
+ 
+ .card-list .card-link i{
+   margin: 5px 0 ;
+  
  }
 
- .sales-pictures .sales-item h3{
-     word-spacing: 20px;
+ .card-list .card-link h3{
+   font-weight: 200;
  }
 
- .sales-pictures .sales-item p{
-   display: inline-block;
+ 
+ .card-list .card-link .cart{
+   display: flex;
+   gap: 10px;
+   font-size: 0.85rem;
+   color: #000000f0;
+   margin: 5px 0 ;
+   padding:  5px;
+   width:fit-content;
  }
-
-
- .sales-pictures .sales-item i{
-   display: inline-block;
- }
-
+ 
+ 
 
  .card-wrapper .swiper-pagination-bullet{
-   height: 13px;
-   width:13px;
+   height: 10px;
+   width:10px;
    opacity: 0.5;
-   background: #5372f0;
+   background: #000;
  
    ;
  
  }
-
+ 
  .card-wrapper .swiper-pagination-bullet-active{
    opacity: 1;
  }
  .card-wrapper .swiper-slide-button{
    color:#5372f0;
-   margin-top:-35px;
+   /* margin-top:1px; */
  
  }
- /* SALES PRODUCT 
-
-
- .sales-products{
-     padding-top: 20px; 
-     line-height: 30px;
-    
-
- }
- .sales-products h1{
-    font-size: 25px;
-    text-align: center;
- }
-
- .Sales-icons{
-justify-content: center; }
-
-
- /* SALES PICTURES 
-
- .card-wrapper{
-   /* max-width: 1100px; 
-   margin:0 60px 35px;
-   padding: 20px 10px;
-   overflow: hidden;
- }
- .sales_pictures {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
- }
-
- /* .sales_pictures
-
-  /* Sales picture1  
-
- .sales-pic1{
-    margin-left: 20px;
- }
- .sales-pic1 img{
-    width:400px;
-    height: 550px;
- }
-
- .sales-pic1 h2{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Poppins", sans-serif;
- }
- .sales-pic1 h3{
-    word-spacing: 20px;
-
- }
-
- .sales-pic1 p{
-    display: inline-block;
- }
-
- .sales-pic1 i{
-    display: inline-block;
- }
- .sales-pic1 span{
-    text-decoration: 2px solid black line-through;
- }
-
-  /* SALES- PICTURES 2  
-  
- .sales-pic2{
-    margin-left: 20px;
- }
- .sales-pic2 img{
-    width:400px;
-    height: 550px;
- }
-
- .sales-pic2 h2{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Poppins", sans-serif;
- }
- .sales-pic2 h3{
-    word-spacing: 20px;
-
- }
-
- .sales-pic2 p{
-    display: inline-block;
- }
-
- .sales-pic2 i{
-    display: inline-block;
- }
- .sales-pic2 span{
-    text-decoration: 2px solid black line-through;
- }
-
-
- /* Sales pictures 3  
-
- 
- .sales-pic3{
-    margin-left: 20px;
- }
- .sales-pic3 img{
-    width:400px;
-    height: 550px;
- }
-
- .sales-pic3 h2{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Poppins", sans-serif;
- }
- .sales-pic3 h3{
-    word-spacing: 20px;
-
- }
-
- .sales-pic3 p{
-    display: inline-block;
- }
-
- .sales-pic3 i{
-    display: inline-block;
- }
- .sales-pic3 span{
-    text-decoration: 2px solid black line-through;
- }
-
-  /* sales pictures 4  
-   
-
-  .sales-pic4{
-   margin-left: 20px;
-}
-.sales-pic4 img{
-   width:400px;
-   height: 550px;
-}
-
-.sales-pic4 h2{
-   font-size: 20px;
-   font-weight: 300;
-   font-family: "Poppins", sans-serif;
-}
-.sales-pic4 h3{
-   word-spacing: 20px;
-
-}
-
-.sales-pic4 p{
-   display: inline-block;
-}
-
-.sales-pic4 i{
-   display: inline-block;
-}
-.sales-pic4 span{
-   text-decoration: 2px solid black line-through;
-}
-   /* sales pictures 5  
-
-   .sales-pic5{
-      margin-left: 20px;
-   }
-   .sales-pic5 img{
-      width:400px;
-      height: 550px;
-   }
-  
-   .sales-pic5 h2{
-      font-size: 20px;
-      font-weight: 300;
-      font-family: "Poppins", sans-serif;
-   }
-   .sales-pic5 h3{
-      word-spacing: 20px;
-  
-   }
-  
-   .sales-pic5 p{
-      display: inline-block;
-   }
-  
-   .sales-pic5 i{
-      display: inline-block;
-   }
-   .sales-pic5 span{
-      text-decoration: 2px solid black line-through;
-   }
- */
 
    .Nxt{
-      margin-left: 40px;
       margin-top: 60px;
-      align-content: center;
-   }
+      /* display: ; */
+      justify-self:center;   }
 
    .Nxt h1{
       padding-bottom: 30px;
       text-transform: none;      
       text-align: center;
+      font-size: 1.12rem;
+      color: #000000d8;
+      font-weight: 300;
    }
 
    .Nxt p{
@@ -602,7 +439,7 @@ justify-content: center; }
       font-family: "Roboto", sans-serif;
    }
 
-   .Nxt-pic1{
+   .Nxt-pic{
       margin-top: 30px;
       line-height: 35px;
 
@@ -610,44 +447,10 @@ justify-content: center; }
 
   
 
-   .Nxt-pic1 img{
+   .Nxt-pic img{
       width: 250px;
       height: 300px;
-   }
-
-
-   .Nxt-pic2{
-      margin-top: 30px;
-      line-height: 35px;
-   }
-
-   .Nxt-pic2 img{
-      width: 250px;
-      height: 300px;
-   }
-
-   .Nxt-pic3{
-      margin-top: 30px;
-      line-height: 35px;
-
-   }
-
-   .Nxt-pic3 img{
-      width: 250px;
-      height: 300px;
-   }
-
-
-   .Nxt-pic4{
-      margin-top: 30px;
-      line-height: 35px;
-
-   }
-
-   .Nxt-pic4 img{
-      width: 250px;
-      height: 300px;
-   }
+      }
 
 
 
@@ -836,6 +639,17 @@ justify-content: center; }
     font-size: 40px;
     font-weight: 900;
 }
+
+.card-list .card-link .card-image{
+   height: 450px;
+   min-width: 300px;
+   /* max-width: 300px; */
+   aspect-ratio: 16 / 9;
+   object-fit: cover;
+   border-radius:10px;
+   cursor: grabbing;
+ 
+ }
 
 div.Scroll-menu{
     width: 80%;
