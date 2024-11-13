@@ -584,7 +584,44 @@ div.Scroll-menu a:hover {
     .Blog-wrapper .swiper-pagination-bullet-active{
       opacity: 1;
     } */
+    
 
+    footer{
+      color: #fff;
+    }
+
+    .FirstHeader{
+      background-image: url(Supreme-Pictures/Alley-pic.jpg);
+      width: 600px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+      margin: 19px 0 18px;
+      padding: 5px;
+  
+
+   }
+
+   .FirstHeader h1{
+    margin: 40px 0 38px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+
+   }   
+
+   .FirstHeader img{
+    width: 200px;
+    float: right;
+    padding-right: 40px;
+   }
+   .LastHeader{
+    background-color: rgba(2, 13, 2, 0.907);
+    width: 600px;
+    height:400px ;
+   }
 @media screen and (max-width: 800px){
  .Allure .header{
     display: flex;
