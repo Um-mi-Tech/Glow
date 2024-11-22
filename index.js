@@ -61,3 +61,44 @@ var swiperTwo = new Swiper('.Blog-wrapper',{
    },
   }
 });
+
+
+let iconCart = document.querySelector('.icon-cart');
+let closeCart = document.querySelector('.close');
+let productPicsHTML = document.querySelector('.productPics');
+
+
+
+let productPics = [];
+let body = document.querySelector('body');
+
+iconCart.addEventListener('click', () => {
+  body.classList.toggle('showCart')
+})
+
+closeCart.addEventListener('click',() => {
+  body.classList.toggle('showCart')
+
+})
+
+
+const initApp = () => {
+  fetch('products.json')
+  then(response => response.json())
+  then(data => {
+    productPics = data;
+    console.log(productPics)
+  })
+}
+
+initApp();
+// const initApp = () => {
+//  //get data from json
+//  fetch('products.json');
+//  then(response => response.json())
+//  then(data => {
+//   productPics = data;
+
+//  })
+// }
+//  initApp();

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ALLEY FACE CREAM",
+    "price": "$45.00",
+    "image": "Supreme-Pictures/face-cream (2).jpg"
+
+  },
+  {
+    "id": 2,
+    "name": "ALLEY HAIR SERUM",
+    "price": "$60.00",
+    "image": "Supreme-Pictures/Oilsupreme-pic.jpg"
+
+  },
+  {
+    "id": 3,
+    "name": "ALLEY FACE CREAM",
+    "price": "$45.00",
+    "image": "Supreme-Pictures/face-cream (2).jpg"
+  }
+ 
+]

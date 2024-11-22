@@ -5,7 +5,7 @@
  
 
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -22,6 +22,7 @@
     list-style: none;
     height: 100%;
     width: 100%;
+    transition: transform .5s;
     /* min-width: 100%; */
 
 }
@@ -68,6 +69,11 @@
     color: #fff;
     font-size: 20px;
 }
+
+.Social-class .icon-cart{
+  margin-top: -5px;
+  
+  }
 
 .Skin{
     margin-top: 160px;
@@ -161,19 +167,19 @@ div.Scroll-menu a:hover {
     text-align: center;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    margin-bottom: 25px;
 
 }
 
-.Main .header button{
-    margin-left:870px ;    
-    margin-top: 60px;
+.Main .header .Learn{
+    display: block; 
+    margin:auto;
     text-transform: uppercase;
     background-color:  #000000a1;
     color: #fff;
     height: 40px;
     width: 150px;
     font-family: "Poppins", sans-serif;
-    /* padding: 20px; */
     border: none;
     font-size: 15px;
 
@@ -277,7 +283,7 @@ div.Scroll-menu a:hover {
 
  }
 
- .Product_pics{
+ .productPics{
   margin-bottom: 40px;
  }
 
@@ -586,45 +592,234 @@ div.Scroll-menu a:hover {
     } */
     
 
-    footer{
-      color: #fff;
+   .GetFooter{
+    width: 100%;
+    color: #fff;
+    height: 100vh;
+  
     }
 
-    .FirstHeader{
-      background-image: url(Supreme-Pictures/Alley-pic.jpg);
-      width: 600px;
+
+
+
+    .FirstFooter{
+      height: 450px;
+      width: 550px;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      height: 500px;
-      margin: 19px 0 18px;
-      padding: 5px;
-  
+      background-image:  url("Supreme-Pictures/Lastsupreme-pic.jpg") ;
 
-   }
-
-   .FirstHeader h1{
-    margin: 40px 0 38px;
+    }
+   .FirstFooter h1{
     padding: 30px;
     font-size: 40px;
-    font-weight: 500;
-    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
 
    }   
 
-   .FirstHeader img{
-    width: 200px;
-    float: right;
+   .FirstFooter p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: "poppins", sans-serif;
+
+   }
+
+   
+   .FirstFooter h2{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+
+
+   } 
+
+  .FirstFooter img{
+    color: #fff;
+    width: 230px;
+    margin: auto;
+    display: block;  
     padding-right: 40px;
    }
-   .LastHeader{
-    background-color: rgba(2, 13, 2, 0.907);
-    width: 600px;
-    height:400px ;
+
+  .LastFooter{
+    height: 650px;
+    width: 550px;
+    background-color: rgba(2, 13, 2, 0.919);
+    padding: 10px;
+
    }
+
+  .LastFooter h1{
+    color: #f8f7f7ce;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 200px;
+    font-family: "Montserrat", sans-serif;
+
+
+   }
+   
+   .LastFooter p{
+    font-size: 12px;
+    padding: 10px;
+    color: #f8f7f7ce;
+
+   }
+
+   .LastFooter h2{
+    font-size: 12px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+
+
+   }
+
+  .LastFooter h3{
+    font-size: 10px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+
+
+   }
+
+   .new-line{
+    margin: auto;
+    border: 1px solid #ffffffd3;
+    border-radius: 20px;
+    height: 5px;
+    width: 400px;
+    justify-self: center;
+    line-height: 20px;
+    background: none;
+    margin-top: 30px;
+   }
+
+   .LastFooter h4{
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+
+
+   }
+
+   
+   .LastFooter h5{
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+
+
+   } 
+
+   .FooterIcon{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+   }
+
+   .FooterIcon i{
+    font-size: 25px;
+    color: #f8f3f3d7;
+   }
+
+   .cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s ;
+   }
+
+   body.showCart .cartTab{
+    inset: 0 0 0 auto;
+
+   }
+
+   body .showCart .container{
+   transform: translate(-250); 
+  
+  }
+
+   .cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+
+   }
+  .cartTab .cartBtn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+
+   .cartTab .cartBtn button{
+    background-color: #e8bc0e;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 ;
+    cursor: pointer;
+  
+  }
+
+  .cartTab .cartBtn .close{
+    background-color: #eee;
+  }
+
+  .cartTab .listCart .cartItem img{
+    width: 100%;
+
+  }
+
+  .cartTab .listCart .cartItem{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap:10px;
+    text-align: center;
+    align-items: center;
+  } 
+   .listCart .Quantity span{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+    /* padding: 5px;  */
+  } 
+
+   .listCart .Quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+
+  } 
+   .listCart .cartItem:nth-child(even){
+    background-color: #eee;
+
+  } 
+
+  .listCart{
+    overflow: auto;
+  } 
+  .listCart::-webkit-scrollbar{
+    width: 0;
+  }
+
+
 @media screen and (max-width: 800px){
  .Allure .header{
-    display: flex;
+   display: flex;
 
  }
 
@@ -765,4 +960,18 @@ s
    width: 250px;
    height: 300px;
 }
+
+
+
+.FirstFooter{
+  height: 450px;
+  width: 375px;
+
+}
+
+.LastFooter{
+  width: 375px;
+}
+
+
 }

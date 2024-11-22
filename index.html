@@ -11,7 +11,7 @@
     <title>GLOW</title>
 </head>
 
-<body>
+<body class="">
 
   <div class="Container">
       <!-- First Section -->
@@ -33,8 +33,8 @@
               <div class="Social-class">
                 <i class="fa fa-blind"></i>
                 <i class="fa fa-search"></i>
-                <i class="fa fa-shopping-cart" onclick= "shoppingCart:shoppingCart++, alert(`shoppingCart : ${
-                  shoppingCart }`);"></i>
+                <div class="icon-cart"> <i class="fa fa-shopping-cart">0</i></div>
+               
               </div>
 
           </div>
@@ -65,10 +65,11 @@
                 <p>About Us</p>
                 <h1>Earth is our<br>true source<br>of beauty</h1>
                 <h5>Allure is a cosmetic brand of face<br> oils,body care and wellness products <br> for all skin types.</h5>
-                <button>learn more</button>
+                <button class="Learn">learn more</button>
                 <h4>We are a brand and representation<br>for everyone who believes that<br> beauty does not come from a <br> snapshot, but from a sequence</h4>
                 <img src="Supreme-Pictures/firstsupreme.jpg">
             </div>
+
             <div class="Next">
               <h1>Why you should choose <br>allure</h1>
             </div>
@@ -125,7 +126,7 @@
 
             </div>
 
-            <div class="Product_pics">
+            <div class="productPics">
 
                 <div class="product-pic">
                   <div class="prd-img">
@@ -439,34 +440,122 @@
           
        </section>
 
-     <footer>
-      <div class="FirstHeader">
+     <footer class="GetFooter">
+      <div class="FirstFooter">
         <h1>Save</h1>
-         <p>ingredient that keeps in mind your purity,power, and integrity</p>
-         <h2>moisture</h2>
+         <p>ingredient that keeps in mind your purity,<br>power, and integrity</p>
+         <h2>Moisture</h2>
          <img src="Supreme-Pictures/cicle.png">
       </div>
-      <div class="LastHeader">
+      <div class="LastFooter">
+
         <h1>Allure.</h1>
-        <p>Skin care is a science, Allure makes it art.
+        <p>Skin care is a science, Allure makes it art.<br>
           Reduce fine lines & wrinkles with alpha hydroxy acid skin care products. Say HI to a new found glow routine.</p>
-        <h2> SupremeBeauty @copyright 2024.All Rights Reserved</h2>
+        <h2> SupremeBeauty &copy 2024.All Rights Reserved.</h2>
         <h3>Made by Ummi-tech</h3>    
         <div class="new-line"></div>
         <h4>Info</h4>
-        <h5>Shipping and Returned</h5>
+        <h4>Shipping and Returned</h4>
+        <h5>Privacy Policy</h5>
+         <h5>FAQs</h5> 
+          <h5>Contact</h5>
+          <h5>Soft Avenue, House 15, Ibeju<br>
+          Lekki,Lagos,Nigeria.</h5>
+
+          <div class="FooterIcon">
+            <a href="https://twitter.com/SalaudeenU34599?t=DQdXrNGRRibq-vFypETeSA&s=09"> 
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="https://github.com/Um-mi-Tech">
+            <i class="fa fa-github"></i>
+          </a>  
+          <a href="www.linkedin.com/in/ummuhlikuthum-102815243">  
+            <i class="fa fa-linkedin-square"></i> 
+          </a>  
+          </div>
       </div>
      </footer>
        
 
     
-  </div>           
-            
+  </div>    
+  
+  <div class="cartTab">
+    <h1>Shopping cart</h1>
+    <div class="listCart">
+    <div class="cartItem">
+        <div class="classimage">
+          <img src="Supreme-Pictures/Oilsupreme-pic.jpg">
+        </div>
+        <div class="cartName">
+             Name
+        </div>
+
+      <div class="totalPrice">$200
+      </div> 
+
+    <div class="Quantity">
+     <span class="minus"><</span>
+     <span>1</span>
+     <span class="plus">></span>
+
+    </div>
+
+    </div>
+ </div>
+
+
+    <div class="cartBtn">
+      <button class="close">Close</button>
+      <button class="checkOut"> Checkout</button>
+
+    </div>
+    </div>
+  </div>        
  
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
  
  
      <script src="index.js"></script>
 
+     <script>
+
+      let alleyCreams =
+     `[
+     
+     {
+      "id": 1,
+      "name": "ALLEY FACE CREAM",
+      "price": "$45.00",
+      "image": "Supreme-Pictures/face-cream (2).jpg"
+  
+    },
+    {
+      "id": 2,
+      "name": "ALLEY HAIR SERUM",
+      "price": "$60.00",
+      "image": "Supreme-Pictures/Oilsupreme-pic.jpg"
+  
+    },
+    {
+      "id": 3,
+      "name": "ALLEY BODY WASH",
+      "price": "$45.00",
+      "image": "Supreme-Pictures/face-cream.jpg"
+  
+    },
+     {
+        "id": 4,
+        "name": "ALLEY CLEANSER",
+        "price": "$60.00",
+        "image": "Supreme-Pictures/Cleanser.jpg"
+
+  }
+
+  ]`
+
+    console.log(JSON.parse(alleyCreams)[3] .name);
+    </script>
 </body>
 </html>
