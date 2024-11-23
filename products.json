@@ -14,10 +14,17 @@
 
   },
   {
-    "id": 3,
-    "name": "ALLEY FACE CREAM",
+    "id":3 ,
+    "name": "ALLEY BODY WASH",
     "price": "$45.00",
-    "image": "Supreme-Pictures/face-cream (2).jpg"
+    "image": "Supreme-Pictures/face-cream.jpg"
+
+  },
+  {
+    "id": 4,
+    "name": "ALLEY CLEANSER",
+    "price": "$60.00",
+    "image": "Supreme-Pictures/Cleanser.jpg"
+
   }
- 
 ]

@@ -299,6 +299,7 @@ div.Scroll-menu a:hover {
  .prd-img img{
    width: 300px;
    height: 350px;
+   cursor: pointer;
  }
 
  .img-txt{
@@ -307,6 +308,10 @@ div.Scroll-menu a:hover {
 
  .img{
     margin-left: 35px;  
+ }
+
+ .addCart{
+  cursor: pointer;
  }
 
  .prd-txt{
@@ -910,24 +915,7 @@ s
     height: 450px;
  }
 
- .prd-img2 img{
-   margin-right: 20px;   
-    width: 300px;
-    height: 450px;
- }
-
- .prd-img3 img{
-   margin-right: 20px;   
-    width: 300px;
-    height: 450px;
- }
-
- .prd-img4 img{
-   margin-right: 20px;   
-    width: 300px;
-    height: 450px;
- }
-
+ 
 .products_sales{
     margin-top: 40px;
 }
