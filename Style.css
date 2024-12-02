@@ -825,6 +825,8 @@ div.Scroll-menu a:hover {
 @media screen and (max-width: 800px){
  .Allure .header{
    display: flex;
+   padding: 10px;
+
 
  }
 
