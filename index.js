@@ -92,13 +92,10 @@ productPicsHTML.addEventListener('click', (event) => {
 const addDataToHTML = () => {
   productPicsHTML.innerHTML = "";
   if (productPics.length > 0){
-    productPics.forEach(product => {
+    productPics.forEach(productPics => {
       let newProduct = document.createElement('div');
       newProduct.classList.add(product-pic);
-       newProduct.innerHTML = '
-                           <img src="Supreme-Pictures/Cleanser.jpg">
-
-       '
+       
        
     })
   }
