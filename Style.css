@@ -840,9 +840,10 @@ div.Scroll-menu a:hover {
 }
 
 .List-class li{
-    gap: 10px;
+    gap: 5px;
     font-size: 10px;
 }
+
 
 .Social-class{
     display: flex;
