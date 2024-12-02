@@ -88,33 +88,21 @@ productPicsHTML.addEventListener('click', (event) => {
     alert('1');
   }
 })
-  let newProduct = document.createElement('div');
-  newProduct.classList.add('product-pic');
-  newProduct.dataset.id = product.id;
-// const addDataToHTML = () => {
-//   productPics.innerHTML = "";
-//   if (productPics.length > 0){
-//     productPics.forEach(product => {
-//       let newProduct = document.createElement('div');
-//       newProduct.classList.add(product-pic);
-//       newProduct.innerHTML = "
-//          <div class="prd-img">
-//                     <img src="Supreme-Pictures/face-cream (2).jpg">
-//                   </div>
-//                   <div class="img-txt">
-//                         <div class="img">
-//                           <h4>Alley face cream</h4>
-//                           <p>Add to cart</p>
-//                         </div>  
-//                         <div class="prd-txt">
-//                           <h5>$45.00</h5>
-//                         </div> 
-//                   </div>
-//       ";
-               
-//     })
-//   }
-// }
+
+const addDataToHTML = () => {
+  productPicsHTML.innerHTML = "";
+  if (productPics.length > 0){
+    productPics.forEach(product => {
+      let newProduct = document.createElement('div');
+      newProduct.classList.add(product-pic);
+       newProduct.innerHTML = '
+                           <img src="Supreme-Pictures/Cleanser.jpg">
+
+       '
+       
+    })
+  }
+}
 
 
 const initApp = () => {
