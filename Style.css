@@ -836,7 +836,7 @@ div.Scroll-menu a:hover {
 }
 
 .List-class{
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
 .List-class li{
@@ -848,7 +848,7 @@ div.Scroll-menu a:hover {
 .Social-class{
     display: flex;
     gap: 15px;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
 .Social-class i{
